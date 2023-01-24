@@ -1,0 +1,241 @@
+/* &display=swap&subset=cyrillic-ext (вставить в плагин) для удаленного подключения*/
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Rowdies:300,regular,700&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&subset=cyrillic-ext");
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../fonts/Gilroy-Light.woff2") format('woff2'),
+      url("../fonts/Gilroy-Light.woff") format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../fonts/Gilroy-ThinItalic.woff2") format('woff2'),
+      url("../fonts/Gilroy-ThinItalic.woff") format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  font-family: "Gilroy", sans-serif; 
+  line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.span1{
+  background-color:#ff0000;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    margin: 0px auto 20px auto;;
+}
+
+.span2{
+  background-color:#ff0000;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    margin: 0px auto 20px auto;;
+}
+
+.span3{
+  background-color:#ff0000;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    margin: 0px auto 20px auto;;
+}
+
+.span4{
+  background-color:#ff0000;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    margin: 0px auto 20px auto;;
+}
+.main{
+  text-align: center;
+  margin: 0px 0px 50px 0px
+}
+.text1{
+  display: inline-block;
+    background-color: #ff0000;
+    font-size: 21px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 0px 30px 20px 0px;
+    padding: 15px;
+}
+.text2{
+  display: inline-block;
+    background-color: #ff0000;
+    font-size: 21px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 0px 30px 20px 0px;
+    padding: 15px;
+}
+.text3{
+  display: inline-block;
+    background-color: #ff0000;
+    font-size: 21px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 0px 30px 20px 0px;
+    padding: 15px;
+}
+.import1{
+  text-align: center;
+  background-color:#ff0000;
+    color: black;
+    font-size: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0px 0px 30px 0px;
+}
+
+.paragrog1{
+  background-color: #ff0000;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    margin: 0px 30px 30px 0px;;
+}
+
+.paragrog2{
+  background-color: #ff0000;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    margin: 0px 30px 30px 0px;
+}
+.paragrog3{
+  background-color: #ff0000;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    margin: 0px 30px 30px 0px;
+}
+.paragrog4{
+  background-color: #ff0000;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    margin: 0px 30px 30px 0px;
+}
+.texts1{
+  font-size: 20px;
+    padding: 30px;
+    width: 1500px;
+}
+
+.texts2{ font-size: 20px;
+  padding: 30px;
+  margin: -85px 0px 0px 0px;   
+  width: 1500px;
+}
+.scrol{
+  background-color: #ff0000;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    width: 200px;
+    height: 200px;
+
+    margin: 0px auto 150px auto;
+  overflow: auto;
+}
+
+
+.wrapper{
+  background-color: bisque;
+
+}
+
+.ram{ 
+  font-size: 21px;
+  text-align: center;
+  width: 1600px;
+  height: 100px;
+  margin: 0px auto;
+  padding: 40px;
+}
+
+
